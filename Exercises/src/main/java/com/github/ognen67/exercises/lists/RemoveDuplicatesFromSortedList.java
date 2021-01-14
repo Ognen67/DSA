@@ -1,6 +1,4 @@
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+package com.github.ognen67.exercises.lists;
 
 public class RemoveDuplicatesFromSortedList {
 

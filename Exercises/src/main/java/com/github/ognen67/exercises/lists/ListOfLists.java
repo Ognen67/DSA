@@ -1,8 +1,10 @@
+package com.github.ognen67.exercises.lists;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
 
-public class ListaOdListi {
+public class ListOfLists {
     static Scanner input = new Scanner(System.in);
     public void findMagicNumber(DLL<DLL<Integer>> list, int n, int m) {
 
@@ -67,7 +69,7 @@ public class ListaOdListi {
             list.insertLast(ins);
         }
 
-        ListaOdListi l = new ListaOdListi();
+        ListOfLists l = new ListOfLists();
         l.findMagicNumber(list, n, m);
 
     }
