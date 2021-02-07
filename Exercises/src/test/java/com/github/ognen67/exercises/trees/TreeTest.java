@@ -23,7 +23,6 @@ class TreeTest {
         assertEquals(List.of("Hello","Hello Again"), value);
     }
 
-
     /**
      * Tests that the tree
      *          1
@@ -89,11 +88,6 @@ class TreeTest {
         List<Integer> result = tree.depthFirstTraversal();
         List<Integer> expected = List.of(1, 2, 4, 6, 8, 3, 5, 7, 1000);
         assertEquals(expected,result);
-
-
     }
-
-
-
 
 }

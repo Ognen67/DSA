@@ -1,5 +1,7 @@
 package com.github.ognen67.exercises.trees;
 
+import com.github.ognen67.exercises.lists.SLLNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
