@@ -1,4 +1,4 @@
-package com.github.ognen67.exercises.lists;
+package com.github.ognen67.exercises.lists.kompanija;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -124,16 +124,15 @@ class SLL {
         temp.id = tempId;
     }
 
-    public void pecati(SLL lista) {
-        SLLNode p = lista.first;
-        if (lista.first == null) {
+    public void pecati() {
+        SLLNode p = first;
+        if (first == null) {
             System.out.println("nema");
         } else {
             while (p != null) {
                 System.out.println(p.id + " " + p.plata);
                 p = p.succ;
             }
-
         }
     }
 
@@ -157,7 +156,7 @@ public class SLLKompanija {
         lista1 = lista1.brisi_pomali_od(Integer.parseInt(s));
         if (lista1 != null) {
             lista1 = lista1.sortiraj_opagacki();
-            lista1.pecati(lista1);
+            lista1.pecati();
         }
 
     }

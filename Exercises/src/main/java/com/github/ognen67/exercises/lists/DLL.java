@@ -4,7 +4,7 @@ class DLL<E> {
     private DLLNode<E> first, last;
 
     public DLL() {
-        // Construct an empty com.github.ognen67.exercises.lists.SLL
+        // Construct an empty com.github.ognen67.exercises.lists.kompanija.SLL
         this.first = null;
         this.last = null;
     }

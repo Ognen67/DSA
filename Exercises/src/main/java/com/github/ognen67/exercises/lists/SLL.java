@@ -2,7 +2,7 @@ package com.github.ognen67.exercises.lists;
 
 public class SLL {
 
-    private class SLLNode {
+    public class SLLNode {
         protected int id;
         protected int plata;
         protected SLLNode succ;
@@ -17,7 +17,7 @@ public class SLL {
     private SLLNode first;
 
     public SLL() {
-        // Construct an empty com.github.ognen67.exercises.lists.SLL
+        // Construct an empty com.github.ognen67.exercises.lists.kompanija.SLL
         this.first = null;
     }
 
@@ -173,17 +173,6 @@ public class SLL {
         }
     }
 
-    public static void main(String[] args) {
-        SLL list = new SLL();
-        list.insertLast(1, 150000);
-        list.insertLast(1, 30000);
-        list.insertLast(1, 50000);
-        list.insertLast(1, 60000);
-        list.insertLast(1, 18000);
 
-        list.cut(20000);
-
-        list.printList();
-    }
 
 }
