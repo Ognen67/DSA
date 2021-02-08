@@ -33,7 +33,7 @@ public class BST {
     private void inorderTraversal(TreeNode node) {
         if (node != null) {
             inorderTraversal(node.leftChild);
-            System.out.println(node);
+            System.out.println(node.value);
             inorderTraversal(node.rightChild);
         }
     }
