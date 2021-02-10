@@ -1,6 +1,8 @@
 package com.github.ognen67.exercises.lists;
 
 
+import java.util.HashSet;
+import java.util.Hashtable;
 import java.util.Scanner;
 
 public class PrevrtiLista {
@@ -44,7 +46,7 @@ public class PrevrtiLista {
             dll.insertLast(input.nextInt());
         }
 
-
         prevrtiIPecati(dll);
+
     }
 }
