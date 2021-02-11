@@ -3,8 +3,11 @@ package com.github.ognen67.exercises.trees;
 import com.github.ognen67.exercises.trees.Tree.TreeNode;
 import org.junit.jupiter.api.Test;
 
+import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
