@@ -71,7 +71,9 @@ public class Book {
             if (result.isEmpty()) {
                 System.out.println("Not found");
             } else {
-                System.out.println(result.stream().mapToInt(b -> b.lines).sum());
+                System.out.println(result.stream()
+                                          .mapToInt(b -> b.lines)
+                                          .sum());
             }
         }
         input.close();
