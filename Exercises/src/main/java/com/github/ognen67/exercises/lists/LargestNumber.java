@@ -12,7 +12,7 @@ public class LargestNumber {
         final List<String> items = new ArrayList<>();
         while (scan.hasNextLine()) {
             items.add(scan.nextLine());
-        }asd
+        }
         return items;
     }
 
