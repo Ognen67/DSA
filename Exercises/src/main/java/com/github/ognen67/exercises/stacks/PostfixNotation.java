@@ -3,7 +3,7 @@ package com.github.ognen67.exercises.stacks;
 public class PostfixNotation {
 
     public static void main(String[] args) {
-        String phrase = "5 9 + 2 * 6 5 * +";
+        String phrase = "28 72 * 13 + 20 67 * +";
         String[] expression = phrase.split("\\s");
         LinkedStack<Integer> stack = new LinkedStack<>();
 
